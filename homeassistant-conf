@@ -1,0 +1,7 @@
+mqtt:
+  sensor:
+    - name: "Temper1"
+      unique_id: temper1
+      device_class: 'temperature'
+      unit_of_measurement: "°C"
+      state_topic: "topic/sensor"
